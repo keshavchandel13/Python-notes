@@ -1,0 +1,4 @@
+This is 
+line by
+line 
+(readline function)
