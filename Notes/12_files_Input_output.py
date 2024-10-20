@@ -1,8 +1,8 @@
 # input output of files in python
-
+path = r"C:\Python\Notes\test.txt"
 # TO read a file
 '''
-file=open("test.txt") #By default the mode is read
+file=open(path) #By default the mode is read
 data = file.read()
 print(data)
 file.close()
@@ -10,7 +10,7 @@ file.close()
 
 # To write a file
 '''
-file=open("test.txt","w")
+file=open(path,"a")
 data="i am adding these lines to the file"
 file.write(data)
 file.close()
@@ -25,5 +25,5 @@ file.close()
 """""
 
 # If we want to  get rid of close() we can use
-with open("test2.txt") as f:
-    print(f.read())
+# with open("test2.txt") as f:
+#     print(f.read())
