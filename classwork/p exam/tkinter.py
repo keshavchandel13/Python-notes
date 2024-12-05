@@ -7,7 +7,6 @@ def change():
 
 root = tk.Tk()
 
-
 t1 = tk.Label(root, text="Name")
 t1.pack()
 entry = tk.Entry(root, width=20)

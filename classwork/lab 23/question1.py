@@ -48,8 +48,8 @@ for x in iterator:
 
 
 def my_range_yield(a,b):
-    x1 = range(a, b)
-    for x in x1:
+    # x1 = range(a, b)
+    for x in range(a,b):
         yield x    
 x2= my_range_yield(8,12)
 for i in x2:
