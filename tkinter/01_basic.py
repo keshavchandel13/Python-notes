@@ -33,7 +33,7 @@ header = tk.Label(root, text="BMI Calculator", font=("Arial", 20, "bold"), bg="#
 header.pack(pady=20)
 
 # Input Frame
-input_frame = tk.Frame(root, bg="#f5f5f5")
+input_frame = tk.Frame(root, bg='#f5f5f5')
 input_frame.pack(pady=20)
 
 # Height Input
