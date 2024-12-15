@@ -11,10 +11,13 @@ class employee:
     def name (self,value):
         self.fname =value.split(" ")[0]
         self.lname =value.split(" ")[1]
+    @staticmethod
+    def greet():
+        print("Hello sir")
 
 e = employee()
 e.a=45
-
+e.greet()
 e.name = "Keshav chandel"
 print(e.name)
 e.show()
